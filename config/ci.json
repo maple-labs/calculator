@@ -1,0 +1,27 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "contracts/interfaces/ICalc.sol": {
+      "urls": ["contracts/interfaces/ICalc.sol"]
+    }
+  },
+  "settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode",
+          "evm.deployedBytecode"
+        ],
+        "": ["ast"]
+      }
+    },
+    "metadata": {
+      "bytecodeHash": "none"
+    }
+  }
+}
